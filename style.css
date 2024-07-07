@@ -14,3 +14,25 @@ table.border td, table.border th {
 table.border th {
     background: #e0e0e0;
 }
+.cv {
+    max-width: 1024px;
+    border-radius: 10px grey solid;
+    display: flex;
+}
+.general {
+    padding: 5px;
+    width: 33%;
+    color: #ececec;
+    background-color: #4d4d4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.header {
+    margin-bottom: 15px;
+}
+.contacts__text {
+    text-transform: uppercase;
+    font-size: 20px;
+}
